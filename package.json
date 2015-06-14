@@ -1,0 +1,8 @@
+{
+  "name": "wtf-shim",
+  "version": "0.0.1",
+  "devDependencies": {
+    "tracing-framework": "latest"
+  },
+  "main": "shim.js"
+}
