@@ -29,7 +29,7 @@
  * @author benvanik@google.com (Ben Vanik)
  */
 
-if (process.env.WTF) {
+if (process.env.WTF && typeof global.wtf === 'undefined') {
     global.wtf = require('tracing-framework');
     //console.log('wtf version', wtf.trace.API_VERSION)
 }
